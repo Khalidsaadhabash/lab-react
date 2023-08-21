@@ -1,5 +1,4 @@
-import React, { ReactNode } from 'react'
-import PropTypes from 'prop-types'
+
 import Services from './Services';
 
 interface com{
@@ -17,7 +16,12 @@ function Companies(Props:com) {
     <div>{Props.namecomp}
     {Props.employes}
     {Props.YearFounded}
-    <Services app={'ggggggggg'} web={'ggggggg'}/>
+   
+    <Services
+        web={Props.web}
+        app={Props.app}
+      ></Services>
+   
      
     
     </div>

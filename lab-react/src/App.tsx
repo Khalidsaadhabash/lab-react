@@ -18,8 +18,8 @@ function App() {
      </div>
      <div className='comp'>
       <h1>Companies </h1>
-      <Companies namecomp='stc' employes={222} YearFounded={1966}  app={'ggggggggg'} web={'ggggggg'} />
-    <Companies  namecomp='zain' employes={444} YearFounded={1990} app={'ggggggggg'} web={'ggggggg'} />
+      <Companies namecomp='stc' employes={222} YearFounded={1966} app={'ss'} web={'sss'}   />
+    <Companies  namecomp='zain' employes={444} YearFounded={1990} app={'sss'} web={'sss'}  />
     
       
 

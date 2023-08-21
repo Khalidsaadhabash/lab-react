@@ -1,5 +1,4 @@
-import React from 'react'
-import Companies from './Companies';
+
 interface ser{
     app:string;
     web:string
